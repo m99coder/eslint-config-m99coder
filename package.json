@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-m99coder",
+  "version": "0.1.0",
+  "description": "Config module for eslint-plugin-m99coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "coverage": "istanbul cover node_modules/.bin/_mocha tests/**/*.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "plugin",
+    "vars-on-top"
+  ],
+  "author": "Marco Lehmann <m99coder@gmail.com> (http://m99.io/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m99coder/eslint-config-m99coder.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "coveralls": "2.11.12",
+    "istanbul": "0.4.4",
+    "mocha": "2.5.3"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}

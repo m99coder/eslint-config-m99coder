@@ -27,7 +27,7 @@
     "js-yaml": ">=3.13.1",
     "minimatch": ">=3.0.2",
     "minimist": ">=1.2.3",
-    "mocha": "^7.1.2"
+    "mocha": "^10.2.0"
   },
   "engines": {
     "node": ">=4.0.0"
